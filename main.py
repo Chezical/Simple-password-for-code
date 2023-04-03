@@ -1,14 +1,11 @@
-import time
-
-password = "Password"
+password = "mypassword"
 max_attempts = 3
 
 for attempt in range(max_attempts):
     user_password = input("Enter the password: ")
     if user_password == password:
-        #Put your code here.
-       time.sleep(.05)
-       print("YAY")
+        print("Access granted.")
+        # add your code here
         break
     else:
         print("Incorrect password. Try again.")
